@@ -1,0 +1,4361 @@
+{
+  "version": 1,
+  "years": {
+    "2007": {
+      "pdf": "2007年考研数学（一）真题.pdf",
+      "sha256": "3adfde7108ba4aab80af311055895a0d2fe34a05201ea5794f290872eba5406e",
+      "page_count": 3,
+      "fill_start": 11,
+      "solution_start": 17,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.17,
+              "bottom": 0.242,
+              "left": 0.049,
+              "marker_y": 0.18
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.244,
+              "bottom": 0.294,
+              "left": 0.049,
+              "marker_y": 0.257
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.296,
+              "bottom": 0.532,
+              "left": 0.049,
+              "marker_y": 0.306
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.534,
+              "bottom": 0.633,
+              "left": 0.048,
+              "marker_y": 0.544
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.635,
+              "bottom": 0.72,
+              "left": 0.049,
+              "marker_y": 0.645
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.722,
+              "bottom": 0.836,
+              "left": 0.049,
+              "marker_y": 0.731
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.838,
+              "bottom": 0.922,
+              "left": 0.049,
+              "marker_y": 0.849
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.924,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.933
+            },
+            {
+              "page": 1,
+              "top": 0.05,
+              "bottom": 0.095,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "9": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.097,
+              "bottom": 0.158,
+              "left": 0.049,
+              "marker_y": 0.106
+            }
+          ]
+        },
+        "10": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.16,
+              "bottom": 0.266,
+              "left": 0.049,
+              "marker_y": 0.17
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.291,
+              "bottom": 0.333,
+              "left": 0.045,
+              "marker_y": 0.304
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.335,
+              "bottom": 0.366,
+              "left": 0.049,
+              "marker_y": 0.348
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.368,
+              "bottom": 0.395,
+              "left": 0.049,
+              "marker_y": 0.377
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.397,
+              "bottom": 0.451,
+              "left": 0.048,
+              "marker_y": 0.407
+            }
+          ]
+        },
+        "15": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.453,
+              "bottom": 0.521,
+              "left": 0.049,
+              "marker_y": 0.471
+            }
+          ]
+        },
+        "16": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.523,
+              "bottom": 0.577,
+              "left": 0.049,
+              "marker_y": 0.534
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.597,
+              "bottom": 0.638,
+              "left": 0.048,
+              "marker_y": 0.606
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.64,
+              "bottom": 0.722,
+              "left": 0.049,
+              "marker_y": 0.649
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.724,
+              "bottom": 0.786,
+              "left": 0.049,
+              "marker_y": 0.733
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.788,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.797
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.054,
+              "bottom": 0.231,
+              "left": 0.049,
+              "marker_y": 0.062
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.233,
+              "bottom": 0.339,
+              "left": 0.049,
+              "marker_y": 0.242
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.341,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.349
+            }
+          ]
+        }
+      }
+    },
+    "2008": {
+      "pdf": "2008年考研数学（一）真题.pdf",
+      "sha256": "daabfec0907066ddc234af2d787dced536aedd1c70567d6562e06effd6079e25",
+      "page_count": 3,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.168,
+              "bottom": 0.232,
+              "left": 0.048,
+              "marker_y": 0.183
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.234,
+              "bottom": 0.286,
+              "left": 0.049,
+              "marker_y": 0.245
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.288,
+              "bottom": 0.332,
+              "left": 0.049,
+              "marker_y": 0.298
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.334,
+              "bottom": 0.443,
+              "left": 0.049,
+              "marker_y": 0.386
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.445,
+              "bottom": 0.509,
+              "left": 0.049,
+              "marker_y": 0.454
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.511,
+              "bottom": 0.664,
+              "left": 0.049,
+              "marker_y": 0.52
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.666,
+              "bottom": 0.731,
+              "left": 0.047,
+              "marker_y": 0.676
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.733,
+              "bottom": 0.82,
+              "left": 0.048,
+              "marker_y": 0.742
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.843,
+              "bottom": 0.864,
+              "left": 0.049,
+              "marker_y": 0.852
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.866,
+              "bottom": 0.889,
+              "left": 0.049,
+              "marker_y": 0.876
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.891,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.904
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.057,
+              "bottom": 0.094,
+              "left": 0.049,
+              "marker_y": 0.07
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.096,
+              "bottom": 0.138,
+              "left": 0.049,
+              "marker_y": 0.105
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.14,
+              "bottom": 0.185,
+              "left": 0.049,
+              "marker_y": 0.149
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.206,
+              "bottom": 0.268,
+              "left": 0.049,
+              "marker_y": 0.215
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.27,
+              "bottom": 0.35,
+              "left": 0.048,
+              "marker_y": 0.278
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.352,
+              "bottom": 0.417,
+              "left": 0.049,
+              "marker_y": 0.361
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.419,
+              "bottom": 0.559,
+              "left": 0.049,
+              "marker_y": 0.427
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.561,
+              "bottom": 0.623,
+              "left": 0.049,
+              "marker_y": 0.57
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.625,
+              "bottom": 0.712,
+              "left": 0.049,
+              "marker_y": 0.634
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.714,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.723
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.054,
+              "bottom": 0.199,
+              "left": 0.049,
+              "marker_y": 0.062
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.201,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.232
+            }
+          ]
+        }
+      }
+    },
+    "2009": {
+      "pdf": "2009年考研数学（一）真题.pdf",
+      "sha256": "3884e2b4d01aaa9a23f0a7b88ff4205613af58724cbb7eeb0f06d70423e3e2b5",
+      "page_count": 3,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.168,
+              "bottom": 0.269,
+              "left": 0.049,
+              "marker_y": 0.179
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.271,
+              "bottom": 0.361,
+              "left": 0.048,
+              "marker_y": 0.284
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.363,
+              "bottom": 0.707,
+              "left": 0.049,
+              "marker_y": 0.372
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.709,
+              "bottom": 0.826,
+              "left": 0.049,
+              "marker_y": 0.717
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.828,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.839
+            },
+            {
+              "page": 1,
+              "top": 0.05,
+              "bottom": 0.179,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.181,
+              "bottom": 0.305,
+              "left": 0.049,
+              "marker_y": 0.191
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.307,
+              "bottom": 0.392,
+              "left": 0.049,
+              "marker_y": 0.323
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.394,
+              "bottom": 0.508,
+              "left": 0.048,
+              "marker_y": 0.402
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.539,
+              "bottom": 0.572,
+              "left": 0.049,
+              "marker_y": 0.551
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.574,
+              "bottom": 0.627,
+              "left": 0.049,
+              "marker_y": 0.584
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.629,
+              "bottom": 0.662,
+              "left": 0.049,
+              "marker_y": 0.639
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.664,
+              "bottom": 0.703,
+              "left": 0.048,
+              "marker_y": 0.679
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.705,
+              "bottom": 0.726,
+              "left": 0.049,
+              "marker_y": 0.715
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.728,
+              "bottom": 0.804,
+              "left": 0.048,
+              "marker_y": 0.74
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.828,
+              "bottom": 0.874,
+              "left": 0.049,
+              "marker_y": 0.836
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.876,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.885
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.054,
+              "bottom": 0.185,
+              "left": 0.049,
+              "marker_y": 0.062
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.187,
+              "bottom": 0.305,
+              "left": 0.049,
+              "marker_y": 0.196
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.307,
+              "bottom": 0.374,
+              "left": 0.049,
+              "marker_y": 0.315
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.376,
+              "bottom": 0.511,
+              "left": 0.049,
+              "marker_y": 0.384
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.513,
+              "bottom": 0.602,
+              "left": 0.049,
+              "marker_y": 0.522
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.604,
+              "bottom": 0.717,
+              "left": 0.049,
+              "marker_y": 0.612
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.719,
+              "bottom": 0.96,
+              "left": 0.049,
+              "marker_y": 0.728
+            }
+          ]
+        }
+      }
+    },
+    "2010": {
+      "pdf": "2010年考研数学（一）真题.pdf",
+      "sha256": "489fa88280b9a9da2abb16649d5aab350e54838397f9f5f202778ddc2f9bfda2",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.16,
+              "bottom": 0.223,
+              "left": 0.033,
+              "marker_y": 0.178
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.225,
+              "bottom": 0.288,
+              "left": 0.032,
+              "marker_y": 0.242
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.29,
+              "bottom": 0.41,
+              "left": 0.032,
+              "marker_y": 0.337
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.412,
+              "bottom": 0.541,
+              "left": 0.034,
+              "marker_y": 0.43
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.543,
+              "bottom": 0.612,
+              "left": 0.029,
+              "marker_y": 0.553
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.614,
+              "bottom": 0.859,
+              "left": 0.032,
+              "marker_y": 0.624
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.861,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.87
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.014,
+              "bottom": 0.161,
+              "left": 0.032,
+              "marker_y": 0.024
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.188,
+              "bottom": 0.252,
+              "left": 0.033,
+              "marker_y": 0.212
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.254,
+              "bottom": 0.289,
+              "left": 0.03,
+              "marker_y": 0.27
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.291,
+              "bottom": 0.354,
+              "left": 0.033,
+              "marker_y": 0.3
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.356,
+              "bottom": 0.377,
+              "left": 0.033,
+              "marker_y": 0.366
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.379,
+              "bottom": 0.434,
+              "left": 0.032,
+              "marker_y": 0.391
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.436,
+              "bottom": 0.494,
+              "left": 0.025,
+              "marker_y": 0.445
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.517,
+              "bottom": 0.728,
+              "left": 0.03,
+              "marker_y": 0.526
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.73,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.738
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.232,
+              "left": 0.03,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.234,
+              "bottom": 0.415,
+              "left": 0.029,
+              "marker_y": 0.243
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.417,
+              "bottom": 0.654,
+              "left": 0.031,
+              "marker_y": 0.426
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.656,
+              "bottom": 0.96,
+              "left": 0.025,
+              "marker_y": 0.664
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.296,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.298,
+              "bottom": 0.581,
+              "left": 0.032,
+              "marker_y": 0.308
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.583,
+              "bottom": 0.96,
+              "left": 0.03,
+              "marker_y": 0.591
+            }
+          ]
+        }
+      }
+    },
+    "2011": {
+      "pdf": "2011年考研数学（一）真题.pdf",
+      "sha256": "7424c51307e807232c506a2b2fa90100dab0398be2c13d3a69ee5c59fb7963b1",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.157,
+              "bottom": 0.206,
+              "left": 0.033,
+              "marker_y": 0.166
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.208,
+              "bottom": 0.294,
+              "left": 0.03,
+              "marker_y": 0.228
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.296,
+              "bottom": 0.392,
+              "left": 0.034,
+              "marker_y": 0.305
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.394,
+              "bottom": 0.458,
+              "left": 0.025,
+              "marker_y": 0.417
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.46,
+              "bottom": 0.579,
+              "left": 0.034,
+              "marker_y": 0.469
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.581,
+              "bottom": 0.653,
+              "left": 0.034,
+              "marker_y": 0.592
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.655,
+              "bottom": 0.749,
+              "left": 0.032,
+              "marker_y": 0.665
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.751,
+              "bottom": 0.87,
+              "left": 0.033,
+              "marker_y": 0.76
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.9,
+              "bottom": 0.935,
+              "left": 0.033,
+              "marker_y": 0.911
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.937,
+              "bottom": 0.96,
+              "left": 0.033,
+              "marker_y": 0.947
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.016,
+              "bottom": 0.057,
+              "left": 0.033,
+              "marker_y": 0.034
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.059,
+              "bottom": 0.123,
+              "left": 0.033,
+              "marker_y": 0.068
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.125,
+              "bottom": 0.171,
+              "left": 0.025,
+              "marker_y": 0.135
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.173,
+              "bottom": 0.22,
+              "left": 0.025,
+              "marker_y": 0.182
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.244,
+              "bottom": 0.479,
+              "left": 0.03,
+              "marker_y": 0.253
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.481,
+              "bottom": 0.736,
+              "left": 0.03,
+              "marker_y": 0.491
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.738,
+              "bottom": 0.96,
+              "left": 0.033,
+              "marker_y": 0.747
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.334,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.336,
+              "bottom": 0.658,
+              "left": 0.029,
+              "marker_y": 0.346
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.66,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.669
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.32,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.322,
+              "bottom": 0.706,
+              "left": 0.03,
+              "marker_y": 0.331
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.708,
+              "bottom": 0.96,
+              "left": 0.031,
+              "marker_y": 0.717
+            }
+          ]
+        }
+      }
+    },
+    "2012": {
+      "pdf": "2012年考研数学（一）真题.pdf",
+      "sha256": "4b8ab8353ef30ec7594adad72352912f2f6a0806ee27a188cf1e8489543a366e",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.162,
+              "bottom": 0.226,
+              "left": 0.033,
+              "marker_y": 0.175
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.228,
+              "bottom": 0.304,
+              "left": 0.033,
+              "marker_y": 0.238
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.306,
+              "bottom": 0.517,
+              "left": 0.034,
+              "marker_y": 0.317
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.519,
+              "bottom": 0.582,
+              "left": 0.033,
+              "marker_y": 0.534
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.584,
+              "bottom": 0.714,
+              "left": 0.034,
+              "marker_y": 0.621
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.716,
+              "bottom": 0.891,
+              "left": 0.032,
+              "marker_y": 0.749
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.893,
+              "bottom": 0.96,
+              "left": 0.03,
+              "marker_y": 0.902
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.014,
+              "bottom": 0.104,
+              "left": 0.025,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.127,
+              "bottom": 0.146,
+              "left": 0.031,
+              "marker_y": 0.137
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.148,
+              "bottom": 0.195,
+              "left": 0.03,
+              "marker_y": 0.167
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.197,
+              "bottom": 0.234,
+              "left": 0.025,
+              "marker_y": 0.212
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.236,
+              "bottom": 0.276,
+              "left": 0.034,
+              "marker_y": 0.251
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.278,
+              "bottom": 0.303,
+              "left": 0.03,
+              "marker_y": 0.288
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.305,
+              "bottom": 0.368,
+              "left": 0.03,
+              "marker_y": 0.322
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.392,
+              "bottom": 0.598,
+              "left": 0.03,
+              "marker_y": 0.401
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.6,
+              "bottom": 0.795,
+              "left": 0.028,
+              "marker_y": 0.61
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.797,
+              "bottom": 0.96,
+              "left": 0.025,
+              "marker_y": 0.805
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.32,
+              "left": 0.03,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.322,
+              "bottom": 0.572,
+              "left": 0.031,
+              "marker_y": 0.331
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.574,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.583
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.296,
+              "left": 0.03,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.298,
+              "bottom": 0.675,
+              "left": 0.029,
+              "marker_y": 0.307
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.677,
+              "bottom": 0.96,
+              "left": 0.025,
+              "marker_y": 0.685
+            }
+          ]
+        }
+      }
+    },
+    "2013": {
+      "pdf": "2013年考研数学（一）真题.pdf",
+      "sha256": "7bc2a7b62349a0848eaaceb19c8dff59744a3439eccd77b4b46ca4b8d4bb3f35",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.162,
+              "bottom": 0.283,
+              "left": 0.033,
+              "marker_y": 0.174
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.285,
+              "bottom": 0.355,
+              "left": 0.032,
+              "marker_y": 0.295
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.357,
+              "bottom": 0.423,
+              "left": 0.032,
+              "marker_y": 0.378
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.425,
+              "bottom": 0.554,
+              "left": 0.032,
+              "marker_y": 0.474
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.556,
+              "bottom": 0.696,
+              "left": 0.03,
+              "marker_y": 0.567
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.698,
+              "bottom": 0.791,
+              "left": 0.03,
+              "marker_y": 0.708
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.793,
+              "bottom": 0.887,
+              "left": 0.029,
+              "marker_y": 0.804
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.889,
+              "bottom": 0.96,
+              "left": 0.032,
+              "marker_y": 0.899
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.015,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.041,
+              "bottom": 0.078,
+              "left": 0.033,
+              "marker_y": 0.058
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.08,
+              "bottom": 0.129,
+              "left": 0.029,
+              "marker_y": 0.09
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.131,
+              "bottom": 0.176,
+              "left": 0.032,
+              "marker_y": 0.144
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.178,
+              "bottom": 0.217,
+              "left": 0.033,
+              "marker_y": 0.195
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.219,
+              "bottom": 0.265,
+              "left": 0.033,
+              "marker_y": 0.23
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.267,
+              "bottom": 0.314,
+              "left": 0.033,
+              "marker_y": 0.276
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.338,
+              "bottom": 0.5,
+              "left": 0.033,
+              "marker_y": 0.347
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.502,
+              "bottom": 0.757,
+              "left": 0.029,
+              "marker_y": 0.511
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.759,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.768
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.273,
+              "left": 0.029,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.275,
+              "bottom": 0.58,
+              "left": 0.03,
+              "marker_y": 0.283
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.582,
+              "bottom": 0.96,
+              "left": 0.032,
+              "marker_y": 0.591
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.326,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.328,
+              "bottom": 0.634,
+              "left": 0.031,
+              "marker_y": 0.337
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.636,
+              "bottom": 0.96,
+              "left": 0.029,
+              "marker_y": 0.645
+            }
+          ]
+        }
+      }
+    },
+    "2014": {
+      "pdf": "2014年考研数学（一）真题.pdf",
+      "sha256": "f476508925a3c3410b3ed264521b3673385948e194130bf3b5364f29773e56f0",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.155,
+              "bottom": 0.219,
+              "left": 0.033,
+              "marker_y": 0.164
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.221,
+              "bottom": 0.292,
+              "left": 0.033,
+              "marker_y": 0.23
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.294,
+              "bottom": 0.505,
+              "left": 0.033,
+              "marker_y": 0.309
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.507,
+              "bottom": 0.592,
+              "left": 0.031,
+              "marker_y": 0.522
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.594,
+              "bottom": 0.683,
+              "left": 0.033,
+              "marker_y": 0.612
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.685,
+              "bottom": 0.777,
+              "left": 0.033,
+              "marker_y": 0.696
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.779,
+              "bottom": 0.823,
+              "left": 0.033,
+              "marker_y": 0.787
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.825,
+              "bottom": 0.96,
+              "left": 0.033,
+              "marker_y": 0.834
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.015,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.038,
+              "bottom": 0.06,
+              "left": 0.033,
+              "marker_y": 0.047
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.062,
+              "bottom": 0.083,
+              "left": 0.033,
+              "marker_y": 0.071
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.085,
+              "bottom": 0.106,
+              "left": 0.033,
+              "marker_y": 0.094
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.108,
+              "bottom": 0.171,
+              "left": 0.03,
+              "marker_y": 0.118
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.173,
+              "bottom": 0.201,
+              "left": 0.034,
+              "marker_y": 0.184
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.203,
+              "bottom": 0.333,
+              "left": 0.034,
+              "marker_y": 0.228
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.356,
+              "bottom": 0.55,
+              "left": 0.033,
+              "marker_y": 0.365
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.552,
+              "bottom": 0.691,
+              "left": 0.028,
+              "marker_y": 0.561
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.693,
+              "bottom": 0.96,
+              "left": 0.031,
+              "marker_y": 0.703
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.269,
+              "left": 0.025,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.271,
+              "bottom": 0.574,
+              "left": 0.025,
+              "marker_y": 0.28
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.576,
+              "bottom": 0.96,
+              "left": 0.03,
+              "marker_y": 0.586
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.296,
+              "left": 0.03,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.298,
+              "bottom": 0.599,
+              "left": 0.03,
+              "marker_y": 0.307
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.601,
+              "bottom": 0.96,
+              "left": 0.032,
+              "marker_y": 0.61
+            }
+          ]
+        }
+      }
+    },
+    "2015": {
+      "pdf": "2015年考研数学（一）真题.pdf",
+      "sha256": "c85f97e7bce9d4a9179f32e7e1e334922ab9026a3d023f2aacd36eaf344c47af",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.155,
+              "bottom": 0.308,
+              "left": 0.033,
+              "marker_y": 0.166,
+              "masks": [
+                {
+                  "x0": 0.02,
+                  "y0": 0.248,
+                  "x1": 0.7,
+                  "y1": 0.308
+                }
+              ]
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.248,
+              "bottom": 0.366,
+              "left": 0.025,
+              "marker_y": 0.27,
+              "masks": [
+                {
+                  "x0": 0.68,
+                  "y0": 0.248,
+                  "x1": 0.98,
+                  "y1": 0.308
+                }
+              ]
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.368,
+              "bottom": 0.457,
+              "left": 0.032,
+              "marker_y": 0.385
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.459,
+              "bottom": 0.642,
+              "left": 0.032,
+              "marker_y": 0.468
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.644,
+              "bottom": 0.762,
+              "left": 0.033,
+              "marker_y": 0.654
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.764,
+              "bottom": 0.859,
+              "left": 0.034,
+              "marker_y": 0.774
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.861,
+              "bottom": 0.96,
+              "left": 0.033,
+              "marker_y": 0.872
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.014,
+              "bottom": 0.086,
+              "left": 0.03,
+              "marker_y": 0.025
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.115,
+              "bottom": 0.158,
+              "left": 0.034,
+              "marker_y": 0.128
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.16,
+              "bottom": 0.199,
+              "left": 0.033,
+              "marker_y": 0.172
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.201,
+              "bottom": 0.232,
+              "left": 0.032,
+              "marker_y": 0.211
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.234,
+              "bottom": 0.341,
+              "left": 0.034,
+              "marker_y": 0.246
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.343,
+              "bottom": 0.412,
+              "left": 0.033,
+              "marker_y": 0.352
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.414,
+              "bottom": 0.461,
+              "left": 0.029,
+              "marker_y": 0.423
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.485,
+              "bottom": 0.649,
+              "left": 0.033,
+              "marker_y": 0.494
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.651,
+              "bottom": 0.815,
+              "left": 0.025,
+              "marker_y": 0.66
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.817,
+              "bottom": 0.96,
+              "left": 0.025,
+              "marker_y": 0.826
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.32,
+              "left": 0.025,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.322,
+              "bottom": 0.648,
+              "left": 0.031,
+              "marker_y": 0.331
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.65,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.66
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.273,
+              "left": 0.03,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.275,
+              "bottom": 0.558,
+              "left": 0.03,
+              "marker_y": 0.283
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.56,
+              "bottom": 0.96,
+              "left": 0.03,
+              "marker_y": 0.568
+            }
+          ]
+        }
+      }
+    },
+    "2016": {
+      "pdf": "2016年考研数学（一）真题.pdf",
+      "sha256": "2c2adb73c45bad194db7a51c748c0a06131dcb902330e56ef0654df2fb6f5007",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.159,
+              "bottom": 0.248,
+              "left": 0.033,
+              "marker_y": 0.175
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.25,
+              "bottom": 0.395,
+              "left": 0.03,
+              "marker_y": 0.27
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.397,
+              "bottom": 0.511,
+              "left": 0.032,
+              "marker_y": 0.41
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.513,
+              "bottom": 0.603,
+              "left": 0.028,
+              "marker_y": 0.522
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.605,
+              "bottom": 0.682,
+              "left": 0.033,
+              "marker_y": 0.615
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.684,
+              "bottom": 0.754,
+              "left": 0.033,
+              "marker_y": 0.695
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.756,
+              "bottom": 0.834,
+              "left": 0.034,
+              "marker_y": 0.765
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.836,
+              "bottom": 0.96,
+              "left": 0.029,
+              "marker_y": 0.846
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.015,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.047,
+              "bottom": 0.096,
+              "left": 0.033,
+              "marker_y": 0.073
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.098,
+              "bottom": 0.119,
+              "left": 0.033,
+              "marker_y": 0.108
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.121,
+              "bottom": 0.152,
+              "left": 0.032,
+              "marker_y": 0.132
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.154,
+              "bottom": 0.213,
+              "left": 0.033,
+              "marker_y": 0.164
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.215,
+              "bottom": 0.279,
+              "left": 0.032,
+              "marker_y": 0.234
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.281,
+              "bottom": 0.356,
+              "left": 0.025,
+              "marker_y": 0.295
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.378,
+              "bottom": 0.516,
+              "left": 0.032,
+              "marker_y": 0.388
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.518,
+              "bottom": 0.738,
+              "left": 0.028,
+              "marker_y": 0.527
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.74,
+              "bottom": 0.96,
+              "left": 0.032,
+              "marker_y": 0.75
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.269,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.271,
+              "bottom": 0.596,
+              "left": 0.025,
+              "marker_y": 0.279
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.598,
+              "bottom": 0.96,
+              "left": 0.031,
+              "marker_y": 0.608
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.32,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.322,
+              "bottom": 0.608,
+              "left": 0.031,
+              "marker_y": 0.331
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.61,
+              "bottom": 0.96,
+              "left": 0.03,
+              "marker_y": 0.619
+            }
+          ]
+        }
+      }
+    },
+    "2017": {
+      "pdf": "2017年考研数学（一）真题.pdf",
+      "sha256": "fe2b10eeaa8337681da8377ad1323e9fbc8963965da0629889725336046a5040",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.166,
+              "bottom": 0.231,
+              "left": 0.031,
+              "marker_y": 0.188
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.233,
+              "bottom": 0.325,
+              "left": 0.025,
+              "marker_y": 0.272
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.327,
+              "bottom": 0.368,
+              "left": 0.032,
+              "marker_y": 0.338
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.37,
+              "bottom": 0.541,
+              "left": 0.028,
+              "marker_y": 0.381
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.543,
+              "bottom": 0.607,
+              "left": 0.029,
+              "marker_y": 0.553
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.609,
+              "bottom": 0.712,
+              "left": 0.033,
+              "marker_y": 0.639
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.714,
+              "bottom": 0.807,
+              "left": 0.032,
+              "marker_y": 0.727
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.809,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.827
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.015,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.046,
+              "bottom": 0.08,
+              "left": 0.033,
+              "marker_y": 0.057
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.082,
+              "bottom": 0.107,
+              "left": 0.033,
+              "marker_y": 0.091
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.109,
+              "bottom": 0.151,
+              "left": 0.033,
+              "marker_y": 0.127
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.153,
+              "bottom": 0.215,
+              "left": 0.032,
+              "marker_y": 0.168
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.217,
+              "bottom": 0.292,
+              "left": 0.033,
+              "marker_y": 0.227
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.294,
+              "bottom": 0.379,
+              "left": 0.025,
+              "marker_y": 0.306
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.402,
+              "bottom": 0.562,
+              "left": 0.025,
+              "marker_y": 0.411
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.564,
+              "bottom": 0.724,
+              "left": 0.033,
+              "marker_y": 0.573
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.726,
+              "bottom": 0.96,
+              "left": 0.029,
+              "marker_y": 0.735
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.315,
+              "left": 0.025,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.317,
+              "bottom": 0.633,
+              "left": 0.029,
+              "marker_y": 0.326
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.635,
+              "bottom": 0.96,
+              "left": 0.025,
+              "marker_y": 0.644
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.25,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.252,
+              "bottom": 0.6,
+              "left": 0.025,
+              "marker_y": 0.261
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.602,
+              "bottom": 0.96,
+              "left": 0.032,
+              "marker_y": 0.612
+            }
+          ]
+        }
+      }
+    },
+    "2018": {
+      "pdf": "2018年考研数学（一）真题.pdf",
+      "sha256": "f88e8a397458ff27e22723acc87dde5fcd62b212d54f0d4d4f6a9f351c1bc2cc",
+      "page_count": 3,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.151,
+              "bottom": 0.224,
+              "left": 0.033,
+              "marker_y": 0.162
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.226,
+              "bottom": 0.293,
+              "left": 0.033,
+              "marker_y": 0.237
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.295,
+              "bottom": 0.38,
+              "left": 0.033,
+              "marker_y": 0.31
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.382,
+              "bottom": 0.49,
+              "left": 0.032,
+              "marker_y": 0.402
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.492,
+              "bottom": 0.671,
+              "left": 0.033,
+              "marker_y": 0.502
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.673,
+              "bottom": 0.743,
+              "left": 0.028,
+              "marker_y": 0.684
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.745,
+              "bottom": 0.8,
+              "left": 0.03,
+              "marker_y": 0.757
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.802,
+              "bottom": 0.96,
+              "left": 0.033,
+              "marker_y": 0.832
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.015,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.044,
+              "bottom": 0.082,
+              "left": 0.037,
+              "marker_y": 0.061
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.084,
+              "bottom": 0.144,
+              "left": 0.033,
+              "marker_y": 0.093
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.146,
+              "bottom": 0.173,
+              "left": 0.032,
+              "marker_y": 0.156
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.175,
+              "bottom": 0.206,
+              "left": 0.033,
+              "marker_y": 0.184
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.208,
+              "bottom": 0.26,
+              "left": 0.03,
+              "marker_y": 0.217
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.262,
+              "bottom": 0.36,
+              "left": 0.025,
+              "marker_y": 0.272
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.382,
+              "bottom": 0.509,
+              "left": 0.031,
+              "marker_y": 0.391
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.511,
+              "bottom": 0.644,
+              "left": 0.03,
+              "marker_y": 0.519
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.646,
+              "bottom": 0.777,
+              "left": 0.028,
+              "marker_y": 0.655
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.779,
+              "bottom": 0.96,
+              "left": 0.028,
+              "marker_y": 0.788
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.129,
+              "left": 0.025,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.131,
+              "bottom": 0.286,
+              "left": 0.025,
+              "marker_y": 0.14
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.288,
+              "bottom": 0.489,
+              "left": 0.03,
+              "marker_y": 0.298
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.491,
+              "bottom": 0.688,
+              "left": 0.029,
+              "marker_y": 0.5
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.69,
+              "bottom": 0.96,
+              "left": 0.03,
+              "marker_y": 0.699
+            }
+          ]
+        }
+      }
+    },
+    "2019": {
+      "pdf": "2019年考研数学（一）真题.pdf",
+      "sha256": "c425b7e6b06733b6cf1fcc2345574a7036e6e3ecccbee8998f02c92b8ade10d0",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.16,
+              "bottom": 0.211,
+              "left": 0.029,
+              "marker_y": 0.17
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.213,
+              "bottom": 0.311,
+              "left": 0.028,
+              "marker_y": 0.231
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.313,
+              "bottom": 0.396,
+              "left": 0.028,
+              "marker_y": 0.324
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.398,
+              "bottom": 0.521,
+              "left": 0.025,
+              "marker_y": 0.408
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.523,
+              "bottom": 0.625,
+              "left": 0.033,
+              "marker_y": 0.533
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.627,
+              "bottom": 0.806,
+              "left": 0.033,
+              "marker_y": 0.637
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.808,
+              "bottom": 0.883,
+              "left": 0.025,
+              "marker_y": 0.819
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.885,
+              "bottom": 0.96,
+              "left": 0.032,
+              "marker_y": 0.894
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.015,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.04,
+              "bottom": 0.078,
+              "left": 0.034,
+              "marker_y": 0.057
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.08,
+              "bottom": 0.102,
+              "left": 0.033,
+              "marker_y": 0.089
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.104,
+              "bottom": 0.147,
+              "left": 0.032,
+              "marker_y": 0.119
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.149,
+              "bottom": 0.187,
+              "left": 0.028,
+              "marker_y": 0.164
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.189,
+              "bottom": 0.241,
+              "left": 0.031,
+              "marker_y": 0.201
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.243,
+              "bottom": 0.351,
+              "left": 0.028,
+              "marker_y": 0.266
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.375,
+              "bottom": 0.663,
+              "left": 0.032,
+              "marker_y": 0.384
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.665,
+              "bottom": 0.96,
+              "left": 0.025,
+              "marker_y": 0.675
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.014,
+              "bottom": 0.178,
+              "left": 0.025,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.18,
+              "bottom": 0.47,
+              "left": 0.032,
+              "marker_y": 0.189
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.472,
+              "bottom": 0.683,
+              "left": 0.025,
+              "marker_y": 0.482
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.685,
+              "bottom": 0.96,
+              "left": 0.034,
+              "marker_y": 0.694
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.014,
+              "bottom": 0.296,
+              "left": 0.028,
+              "marker_y": 0.023
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.298,
+              "bottom": 0.58,
+              "left": 0.025,
+              "marker_y": 0.307
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.582,
+              "bottom": 0.96,
+              "left": 0.03,
+              "marker_y": 0.591
+            }
+          ]
+        }
+      }
+    },
+    "2020": {
+      "pdf": "2020年考研数学（一）真题.pdf",
+      "sha256": "f0ac98c1ef0a5d03b8aa4d082833212b23f822e999a04d8cc80115ba9709a747",
+      "page_count": 4,
+      "fill_start": 9,
+      "solution_start": 15,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.335,
+              "bottom": 0.436,
+              "left": 0.106,
+              "marker_y": 0.344
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.438,
+              "bottom": 0.646,
+              "left": 0.106,
+              "marker_y": 0.447
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.648,
+              "bottom": 0.96,
+              "left": 0.106,
+              "marker_y": 0.664
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.077,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.079,
+              "bottom": 0.159,
+              "left": 0.067,
+              "marker_y": 0.09
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.161,
+              "bottom": 0.308,
+              "left": 0.067,
+              "marker_y": 0.202
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.31,
+              "bottom": 0.467,
+              "left": 0.067,
+              "marker_y": 0.321
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.469,
+              "bottom": 0.588,
+              "left": 0.067,
+              "marker_y": 0.478
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.59,
+              "bottom": 0.684,
+              "left": 0.064,
+              "marker_y": 0.6
+            }
+          ]
+        },
+        "9": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.717,
+              "bottom": 0.748,
+              "left": 0.065,
+              "marker_y": 0.725
+            }
+          ]
+        },
+        "10": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.75,
+              "bottom": 0.799,
+              "left": 0.064,
+              "marker_y": 0.771
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.801,
+              "bottom": 0.86,
+              "left": 0.063,
+              "marker_y": 0.809
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.862,
+              "bottom": 0.96,
+              "left": 0.063,
+              "marker_y": 0.878
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.075,
+              "bottom": 0.164,
+              "left": 0.084,
+              "marker_y": 0.114
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.166,
+              "bottom": 0.201,
+              "left": 0.084,
+              "marker_y": 0.179
+            }
+          ]
+        },
+        "15": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.223,
+              "bottom": 0.354,
+              "left": 0.085,
+              "marker_y": 0.231
+            }
+          ]
+        },
+        "16": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.356,
+              "bottom": 0.483,
+              "left": 0.085,
+              "marker_y": 0.364
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.485,
+              "bottom": 0.634,
+              "left": 0.086,
+              "marker_y": 0.493
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.636,
+              "bottom": 0.789,
+              "left": 0.086,
+              "marker_y": 0.644
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.791,
+              "bottom": 0.96,
+              "left": 0.085,
+              "marker_y": 0.799
+            },
+            {
+              "page": 3,
+              "top": 0.01,
+              "bottom": 0.067,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.069,
+              "bottom": 0.269,
+              "left": 0.083,
+              "marker_y": 0.077
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.271,
+              "bottom": 0.446,
+              "left": 0.082,
+              "marker_y": 0.279
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.448,
+              "bottom": 0.663,
+              "left": 0.083,
+              "marker_y": 0.456
+            }
+          ]
+        },
+        "23": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.665,
+              "bottom": 0.96,
+              "left": 0.081,
+              "marker_y": 0.673
+            }
+          ]
+        }
+      }
+    },
+    "2021": {
+      "pdf": "2021年考研数学（一）真题.pdf",
+      "sha256": "0184339371e57ce4ca2aa1e6e858e4b35f20d9a47f2d294a2372dae9a4241bd5",
+      "page_count": 4,
+      "fill_start": 11,
+      "solution_start": 17,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.344,
+              "bottom": 0.442,
+              "left": 0.108,
+              "marker_y": 0.366
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.444,
+              "bottom": 0.492,
+              "left": 0.107,
+              "marker_y": 0.453
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.494,
+              "bottom": 0.617,
+              "left": 0.107,
+              "marker_y": 0.507
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.619,
+              "bottom": 0.731,
+              "left": 0.107,
+              "marker_y": 0.628
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.733,
+              "bottom": 0.799,
+              "left": 0.108,
+              "marker_y": 0.742
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.801,
+              "bottom": 0.96,
+              "left": 0.107,
+              "marker_y": 0.831
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.071,
+              "bottom": 0.183,
+              "left": 0.094,
+              "marker_y": 0.08
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.185,
+              "bottom": 0.295,
+              "left": 0.093,
+              "marker_y": 0.194
+            }
+          ]
+        },
+        "9": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.297,
+              "bottom": 0.532,
+              "left": 0.093,
+              "marker_y": 0.306
+            }
+          ]
+        },
+        "10": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.534,
+              "bottom": 0.665,
+              "left": 0.09,
+              "marker_y": 0.543
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.686,
+              "bottom": 0.732,
+              "left": 0.092,
+              "marker_y": 0.706
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.734,
+              "bottom": 0.775,
+              "left": 0.09,
+              "marker_y": 0.751
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.777,
+              "bottom": 0.798,
+              "left": 0.09,
+              "marker_y": 0.785
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.8,
+              "bottom": 0.861,
+              "left": 0.091,
+              "marker_y": 0.808
+            }
+          ]
+        },
+        "15": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.863,
+              "bottom": 0.907,
+              "left": 0.092,
+              "marker_y": 0.872
+            }
+          ]
+        },
+        "16": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.909,
+              "bottom": 0.96,
+              "left": 0.09,
+              "marker_y": 0.917
+            },
+            {
+              "page": 2,
+              "top": 0.067,
+              "bottom": 0.095,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.117,
+              "bottom": 0.38,
+              "left": 0.13,
+              "marker_y": 0.125
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.382,
+              "bottom": 0.619,
+              "left": 0.13,
+              "marker_y": 0.39
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.621,
+              "bottom": 0.96,
+              "left": 0.129,
+              "marker_y": 0.628
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.068,
+              "bottom": 0.311,
+              "left": 0.083,
+              "marker_y": 0.077
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.313,
+              "bottom": 0.553,
+              "left": 0.083,
+              "marker_y": 0.321
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.555,
+              "bottom": 0.96,
+              "left": 0.081,
+              "marker_y": 0.563
+            }
+          ]
+        }
+      }
+    }
+  }
+}
