@@ -33,6 +33,16 @@ class ExportTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             export_pdf(ROOT, self.index, [], "huge")
 
+    def test_pdf_uses_requested_title_without_page_headers_or_footers(self):
+        selections = parse_selections("2007-9\n2009-9\n2020-15", self.index)
+        reader = PdfReader(BytesIO(export_pdf(ROOT, self.index, selections, "standard")))
+        text = "\n".join(page.extract_text() for page in reader.pages)
+
+        self.assertIn("考研数学拼好题", text)
+        self.assertNotIn("考研数学一 · 真题精选卷", text)
+        self.assertNotIn("数学一真题精选卷", text)
+        self.assertNotIn("第 1 页", text)
+
     def test_section_heading_stays_with_first_solution(self):
         selections = parse_selections("2007-9\n2009-5\n2009-9\n2020-15", self.index)
         reader = PdfReader(BytesIO(export_pdf(ROOT, self.index, selections, "standard")))

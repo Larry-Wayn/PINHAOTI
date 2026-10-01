@@ -30,35 +30,20 @@ def export_pdf(root: Path, index: dict, selections: list, answer_space: str) -> 
     _register_font()
     stream = BytesIO()
     pdf = canvas.Canvas(stream, pagesize=A4)
-    pdf.setTitle("考研数学一真题精选卷")
+    pdf.setTitle("考研数学拼好题")
     page_width, page_height = A4
     margin = 44
-    bottom = 62
+    bottom = 44
     content_width = page_width - 2 * margin
-    page_number = 1
-
-    def draw_footer():
-        pdf.setStrokeColorRGB(0.78, 0.78, 0.78)
-        pdf.line(margin, 46, page_width - margin, 46)
-        pdf.setFont(FONT_NAME, 8)
-        pdf.setFillColorRGB(0.38, 0.38, 0.38)
-        pdf.drawString(margin, 31, "数学一真题精选卷")
-        pdf.drawRightString(page_width - margin, 31, f"第 {page_number} 页")
-        pdf.setFillColorRGB(0, 0, 0)
 
     def next_page():
-        nonlocal page_number, y
-        draw_footer()
+        nonlocal y
         pdf.showPage()
-        page_number += 1
-        y = page_height - 53
-        pdf.setFont(FONT_NAME, 9)
-        pdf.drawString(margin, y, "考研数学一 · 真题精选卷")
-        y -= 28
+        y = page_height - margin
 
     y = page_height - 65
     pdf.setFont(FONT_NAME, 18)
-    pdf.drawCentredString(page_width / 2, y, "考研数学一真题精选卷")
+    pdf.drawCentredString(page_width / 2, y, "考研数学拼好题")
     y -= 32
     counts = {kind: sum(item.kind == kind for item in selections) for kind in KIND_LABELS}
     summary = f"共 {len(selections)} 题  ·  选择 {counts['choice']} 题  ·  填空 {counts['fill']} 题  ·  解答 {counts['solution']} 题"
@@ -137,6 +122,5 @@ def export_pdf(root: Path, index: dict, selections: list, answer_space: str) -> 
         pdf.setFont(FONT_NAME, 10)
         pdf.drawString(margin, y, f"第 {item.output_number} 题  ·  {item.year} 年数学一第 {item.number} 题  ·  {KIND_LABELS[item.kind]}")
         y -= 21
-    draw_footer()
     pdf.save()
     return stream.getvalue()
