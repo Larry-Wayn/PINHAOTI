@@ -42,14 +42,14 @@ class IndexTests(unittest.TestCase):
         rows[470:475] = 0
         self.assertLess(choose_start(rows, marker_y=0.50, lower_y=0.43, blank_threshold=10), 0.50)
 
-    def test_bundled_index_covers_2007_through_2021_with_actual_question_counts(self):
+    def test_bundled_index_covers_2007_through_2025_with_actual_question_counts(self):
         path = Path(__file__).resolve().parents[1] / "data" / "index.json"
         self.assertTrue(path.exists())
         years = json.loads(path.read_text())["years"]
-        self.assertEqual(set(years), {str(y) for y in range(2007, 2022)})
+        self.assertEqual(set(years), {str(y) for y in range(2007, 2026)})
         for year, paper in years.items():
             with self.subTest(year=year):
-                count = 22 if year == "2021" else 23
+                count = 22 if int(year) >= 2021 else 23
                 self.assertEqual(set(paper["questions"]), {str(n) for n in range(1, count + 1)})
                 self.assertTrue(all(question["segments"] for question in paper["questions"].values()))
         self.assertEqual(years["2007"]["questions"]["11"]["type"], "fill")
@@ -59,6 +59,14 @@ class IndexTests(unittest.TestCase):
         self.assertEqual(years["2021"]["questions"]["16"]["type"], "fill")
         self.assertEqual(years["2021"]["questions"]["17"]["type"], "solution")
         self.assertEqual(years["2021"]["questions"]["22"]["type"], "solution")
+        for year in range(2022, 2026):
+            paper = years[str(year)]
+            self.assertEqual(paper["fill_start"], 11)
+            self.assertEqual(paper["solution_start"], 17)
+            self.assertEqual(paper["questions"]["10"]["type"], "choice")
+            self.assertEqual(paper["questions"]["11"]["type"], "fill")
+            self.assertEqual(paper["questions"]["17"]["type"], "solution")
+        self.assertLessEqual(years["2025"]["questions"]["22"]["segments"][-1]["page"], 6)
 
     def test_tall_formulas_start_with_their_own_question(self):
         years = json.loads((Path(__file__).resolve().parents[1] / "data" / "index.json").read_text())["years"]

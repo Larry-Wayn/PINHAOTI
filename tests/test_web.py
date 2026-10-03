@@ -20,7 +20,7 @@ class WebTests(unittest.TestCase):
         cls.index = json.loads((ROOT / "data" / "index.json").read_text())
 
     def test_source_files_match_index(self):
-        self.assertEqual(verify_sources(ROOT, self.index), 15)
+        self.assertEqual(verify_sources(ROOT, self.index), 19)
 
     def test_preview_then_download_pdf(self):
         server = make_server(ROOT, self.index, port=0)

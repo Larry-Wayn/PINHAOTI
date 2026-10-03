@@ -4356,6 +4356,1140 @@
           ]
         }
       }
+    },
+    "2022": {
+      "pdf": "2022年考研数学（一）真题.pdf",
+      "sha256": "7bccf81107b11b858ff78ec1721b66283d20a6a66df678dc35f7345e67fac05d",
+      "page_count": 4,
+      "fill_start": 11,
+      "solution_start": 17,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.217,
+              "bottom": 0.308,
+              "left": 0.06,
+              "marker_y": 0.232
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.31,
+              "bottom": 0.434,
+              "left": 0.06,
+              "marker_y": 0.324
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.436,
+              "bottom": 0.585,
+              "left": 0.06,
+              "marker_y": 0.449
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.587,
+              "bottom": 0.673,
+              "left": 0.06,
+              "marker_y": 0.6
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.675,
+              "bottom": 0.793,
+              "left": 0.06,
+              "marker_y": 0.684
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.795,
+              "bottom": 0.925,
+              "left": 0.06,
+              "marker_y": 0.805
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.146,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.148,
+              "bottom": 0.29,
+              "left": 0.08,
+              "marker_y": 0.159
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.292,
+              "bottom": 0.363,
+              "left": 0.08,
+              "marker_y": 0.301
+            }
+          ]
+        },
+        "9": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.365,
+              "bottom": 0.479,
+              "left": 0.08,
+              "marker_y": 0.373
+            }
+          ]
+        },
+        "10": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.481,
+              "bottom": 0.598,
+              "left": 0.08,
+              "marker_y": 0.49
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.622,
+              "bottom": 0.648,
+              "left": 0.08,
+              "marker_y": 0.632
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.65,
+              "bottom": 0.689,
+              "left": 0.081,
+              "marker_y": 0.664
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.691,
+              "bottom": 0.715,
+              "left": 0.08,
+              "marker_y": 0.702
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.717,
+              "bottom": 0.757,
+              "left": 0.08,
+              "marker_y": 0.729
+            }
+          ]
+        },
+        "15": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.759,
+              "bottom": 0.805,
+              "left": 0.08,
+              "marker_y": 0.768
+            }
+          ]
+        },
+        "16": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.807,
+              "bottom": 0.925,
+              "left": 0.08,
+              "marker_y": 0.818
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.086,
+              "bottom": 0.354,
+              "left": 0.055,
+              "marker_y": 0.094
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.356,
+              "bottom": 0.602,
+              "left": 0.055,
+              "marker_y": 0.365
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.604,
+              "bottom": 0.925,
+              "left": 0.055,
+              "marker_y": 0.612
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.06,
+              "bottom": 0.302,
+              "left": 0.081,
+              "marker_y": 0.069
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.304,
+              "bottom": 0.618,
+              "left": 0.079,
+              "marker_y": 0.313
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.62,
+              "bottom": 0.925,
+              "left": 0.081,
+              "marker_y": 0.629
+            }
+          ]
+        }
+      }
+    },
+    "2023": {
+      "pdf": "2023年考研数学（一）真题.pdf",
+      "sha256": "761a0362c7bc780781cb4b132c2c19432b7b9dd2028323e58b74367628c02123",
+      "page_count": 4,
+      "fill_start": 11,
+      "solution_start": 17,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.137,
+              "bottom": 0.251,
+              "left": 0.067,
+              "marker_y": 0.147
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.253,
+              "bottom": 0.326,
+              "left": 0.067,
+              "marker_y": 0.262
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.328,
+              "bottom": 0.424,
+              "left": 0.067,
+              "marker_y": 0.349
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.426,
+              "bottom": 0.541,
+              "left": 0.067,
+              "marker_y": 0.447
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.543,
+              "bottom": 0.664,
+              "left": 0.067,
+              "marker_y": 0.564
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.666,
+              "bottom": 0.763,
+              "left": 0.067,
+              "marker_y": 0.676
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.765,
+              "bottom": 0.925,
+              "left": 0.069,
+              "marker_y": 0.798
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.089,
+              "bottom": 0.148,
+              "left": 0.049,
+              "marker_y": 0.096
+            }
+          ]
+        },
+        "9": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.15,
+              "bottom": 0.343,
+              "left": 0.051,
+              "marker_y": 0.16
+            }
+          ]
+        },
+        "10": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.345,
+              "bottom": 0.43,
+              "left": 0.051,
+              "marker_y": 0.355
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.459,
+              "bottom": 0.502,
+              "left": 0.051,
+              "marker_y": 0.468
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.504,
+              "bottom": 0.53,
+              "left": 0.051,
+              "marker_y": 0.513
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.532,
+              "bottom": 0.605,
+              "left": 0.051,
+              "marker_y": 0.543
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.607,
+              "bottom": 0.644,
+              "left": 0.051,
+              "marker_y": 0.623
+            }
+          ]
+        },
+        "15": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.646,
+              "bottom": 0.758,
+              "left": 0.051,
+              "marker_y": 0.688
+            }
+          ]
+        },
+        "16": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.76,
+              "bottom": 0.793,
+              "left": 0.053,
+              "marker_y": 0.773
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.817,
+              "bottom": 0.925,
+              "left": 0.053,
+              "marker_y": 0.826
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.078,
+              "bottom": 0.15,
+              "left": 0.063,
+              "marker_y": 0.085
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.152,
+              "bottom": 0.291,
+              "left": 0.063,
+              "marker_y": 0.16
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.293,
+              "bottom": 0.446,
+              "left": 0.063,
+              "marker_y": 0.301
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.448,
+              "bottom": 0.592,
+              "left": 0.063,
+              "marker_y": 0.456
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.594,
+              "bottom": 0.925,
+              "left": 0.065,
+              "marker_y": 0.603
+            }
+          ]
+        }
+      }
+    },
+    "2024": {
+      "pdf": "2024年考研数学（一）真题.pdf",
+      "sha256": "8cb8a0dba125d4beab664a7636315f6151903d8bfe510de7199fe62708f456c3",
+      "page_count": 4,
+      "fill_start": 11,
+      "solution_start": 17,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.202,
+              "bottom": 0.315,
+              "left": 0.154,
+              "marker_y": 0.214
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.317,
+              "bottom": 0.505,
+              "left": 0.154,
+              "marker_y": 0.33
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.507,
+              "bottom": 0.593,
+              "left": 0.154,
+              "marker_y": 0.521
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.595,
+              "bottom": 0.772,
+              "left": 0.156,
+              "marker_y": 0.606
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 0,
+              "top": 0.774,
+              "bottom": 0.925,
+              "left": 0.154,
+              "marker_y": 0.78
+            },
+            {
+              "page": 1,
+              "top": 0.01,
+              "bottom": 0.272,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.274,
+              "bottom": 0.455,
+              "left": 0.154,
+              "marker_y": 0.315
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.457,
+              "bottom": 0.571,
+              "left": 0.156,
+              "marker_y": 0.465
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.573,
+              "bottom": 0.674,
+              "left": 0.156,
+              "marker_y": 0.581
+            }
+          ]
+        },
+        "9": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.676,
+              "bottom": 0.822,
+              "left": 0.156,
+              "marker_y": 0.692
+            }
+          ]
+        },
+        "10": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.824,
+              "bottom": 0.925,
+              "left": 0.156,
+              "marker_y": 0.831
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.121,
+              "bottom": 0.179,
+              "left": 0.156,
+              "marker_y": 0.148
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.181,
+              "bottom": 0.235,
+              "left": 0.156,
+              "marker_y": 0.197
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.237,
+              "bottom": 0.334,
+              "left": 0.158,
+              "marker_y": 0.251
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.336,
+              "bottom": 0.377,
+              "left": 0.156,
+              "marker_y": 0.345
+            }
+          ]
+        },
+        "15": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.379,
+              "bottom": 0.463,
+              "left": 0.156,
+              "marker_y": 0.399
+            }
+          ]
+        },
+        "16": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.465,
+              "bottom": 0.545,
+              "left": 0.156,
+              "marker_y": 0.472
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.57,
+              "bottom": 0.656,
+              "left": 0.154,
+              "marker_y": 0.584
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.658,
+              "bottom": 0.768,
+              "left": 0.156,
+              "marker_y": 0.667
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.77,
+              "bottom": 0.925,
+              "left": 0.154,
+              "marker_y": 0.78
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.089,
+              "bottom": 0.198,
+              "left": 0.148,
+              "marker_y": 0.098
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.2,
+              "bottom": 0.347,
+              "left": 0.153,
+              "marker_y": 0.206
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.349,
+              "bottom": 0.925,
+              "left": 0.156,
+              "marker_y": 0.36
+            }
+          ]
+        }
+      }
+    },
+    "2025": {
+      "pdf": "2025年考研数学（一）真题.pdf",
+      "sha256": "ed2bea7e0563ab1b786fd4c8312d14c571e37c0a9332be19da1aa55a1d9f01b4",
+      "page_count": 9,
+      "fill_start": 11,
+      "solution_start": 17,
+      "questions": {
+        "1": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.193,
+              "bottom": 0.386,
+              "left": 0.116,
+              "marker_y": 0.204
+            }
+          ]
+        },
+        "2": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.388,
+              "bottom": 0.541,
+              "left": 0.117,
+              "marker_y": 0.402
+            }
+          ]
+        },
+        "3": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.543,
+              "bottom": 0.782,
+              "left": 0.115,
+              "marker_y": 0.553
+            }
+          ]
+        },
+        "4": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 1,
+              "top": 0.784,
+              "bottom": 0.925,
+              "left": 0.115,
+              "marker_y": 0.795
+            },
+            {
+              "page": 2,
+              "top": 0.01,
+              "bottom": 0.171,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "5": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.173,
+              "bottom": 0.269,
+              "left": 0.115,
+              "marker_y": 0.183
+            }
+          ]
+        },
+        "6": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.271,
+              "bottom": 0.444,
+              "left": 0.114,
+              "marker_y": 0.281
+            }
+          ]
+        },
+        "7": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.446,
+              "bottom": 0.62,
+              "left": 0.115,
+              "marker_y": 0.457
+            }
+          ]
+        },
+        "8": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.622,
+              "bottom": 0.759,
+              "left": 0.113,
+              "marker_y": 0.633
+            }
+          ]
+        },
+        "9": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 2,
+              "top": 0.761,
+              "bottom": 0.925,
+              "left": 0.117,
+              "marker_y": 0.773
+            },
+            {
+              "page": 3,
+              "top": 0.01,
+              "bottom": 0.164,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "10": {
+          "type": "choice",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.166,
+              "bottom": 0.431,
+              "left": 0.117,
+              "marker_y": 0.182
+            }
+          ]
+        },
+        "11": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.472,
+              "bottom": 0.557,
+              "left": 0.119,
+              "marker_y": 0.484
+            }
+          ]
+        },
+        "12": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.559,
+              "bottom": 0.69,
+              "left": 0.13,
+              "marker_y": 0.584
+            }
+          ]
+        },
+        "13": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.692,
+              "bottom": 0.772,
+              "left": 0.117,
+              "marker_y": 0.707
+            }
+          ]
+        },
+        "14": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 3,
+              "top": 0.774,
+              "bottom": 0.925,
+              "left": 0.117,
+              "marker_y": 0.784
+            }
+          ]
+        },
+        "15": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 4,
+              "top": 0.09,
+              "bottom": 0.17,
+              "left": 0.117,
+              "marker_y": 0.116
+            }
+          ]
+        },
+        "16": {
+          "type": "fill",
+          "segments": [
+            {
+              "page": 4,
+              "top": 0.172,
+              "bottom": 0.345,
+              "left": 0.116,
+              "marker_y": 0.205
+            }
+          ]
+        },
+        "17": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 4,
+              "top": 0.445,
+              "bottom": 0.559,
+              "left": 0.117,
+              "marker_y": 0.456
+            }
+          ]
+        },
+        "18": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 4,
+              "top": 0.561,
+              "bottom": 0.801,
+              "left": 0.117,
+              "marker_y": 0.571
+            }
+          ]
+        },
+        "19": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 4,
+              "top": 0.803,
+              "bottom": 0.925,
+              "left": 0.117,
+              "marker_y": 0.813
+            },
+            {
+              "page": 5,
+              "top": 0.01,
+              "bottom": 0.197,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        },
+        "20": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 5,
+              "top": 0.199,
+              "bottom": 0.428,
+              "left": 0.117,
+              "marker_y": 0.208
+            }
+          ]
+        },
+        "21": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 5,
+              "top": 0.43,
+              "bottom": 0.632,
+              "left": 0.115,
+              "marker_y": 0.453
+            }
+          ]
+        },
+        "22": {
+          "type": "solution",
+          "segments": [
+            {
+              "page": 5,
+              "top": 0.634,
+              "bottom": 0.925,
+              "left": 0.115,
+              "marker_y": 0.643
+            },
+            {
+              "page": 6,
+              "top": 0.01,
+              "bottom": 0.925,
+              "left": null,
+              "marker_y": null
+            }
+          ]
+        }
+      }
     }
   }
 }

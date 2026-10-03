@@ -39,6 +39,8 @@ class ExportTests(unittest.TestCase):
         text = "\n".join(page.extract_text() for page in reader.pages)
 
         self.assertIn("考研数学拼好题", text)
+        self.assertNotIn("姓名：", text)
+        self.assertNotIn("日期：", text)
         self.assertNotIn("考研数学一 · 真题精选卷", text)
         self.assertNotIn("数学一真题精选卷", text)
         self.assertNotIn("第 1 页", text)

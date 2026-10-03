@@ -34,9 +34,18 @@ class SelectionTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_selections("2021-23", self.index)
 
+    def test_2022_to_2025_questions_can_be_selected(self):
+        selections = parse_selections("2022-1\n2023-11\n2024-17\n2025-22", self.index)
+        self.assertEqual([(item.year, item.number, item.kind) for item in selections], [
+            (2022, 1, "choice"), (2023, 11, "fill"),
+            (2024, 17, "solution"), (2025, 22, "solution"),
+        ])
+        with self.assertRaises(ValueError):
+            parse_selections("2025-23", self.index)
+
     def test_invalid_and_missing_question_reports_line(self):
         with self.assertRaisesRegex(ValueError, "第2项"):
-            parse_selections("2009-9\n2022-9", self.index)
+            parse_selections("2009-9\n2026-9", self.index)
         with self.assertRaisesRegex(ValueError, "第1项"):
             parse_selections("2009年数学二第9题", self.index)
 

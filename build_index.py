@@ -131,7 +131,7 @@ def read_ocr(path: Path) -> tuple[dict[str, list[Marker]], dict[str, dict[str, t
         y = round(strip_y * 0.96, 3)
         x = round(0.025 + strip_x * 0.205, 3)
         number = question_number(text)
-        if number and strip_x < 0.6:
+        if number and strip_x < (0.75 if year == "2024" else 0.6):
             candidates[year].append(Marker(number, page, y, x))
         if "填空题" in text:
             headings[year]["fill"] = (page, y)
@@ -147,6 +147,15 @@ def read_ocr(path: Path) -> tuple[dict[str, list[Marker]], dict[str, dict[str, t
         Marker(14, 1, 0.808, 0.091),
         Marker(15, 1, 0.872, 0.092),
     ))
+    # These numbers and headings are too faint for Vision in the scanned PDFs.
+    candidates["2022"].append(Marker(12, 1, 0.664, 0.081))
+    candidates["2024"].extend((
+        Marker(4, 0, 0.606, 0.156),
+        Marker(11, 2, 0.148, 0.156),
+        Marker(22, 3, 0.360, 0.156),
+    ))
+    headings["2024"].update(choice=(0, 0.171), fill=(2, 0.097), solution=(2, 0.555))
+    headings["2025"].update(choice=(1, 0.098), fill=(3, 0.441), solution=(4, 0.355))
     return candidates, headings
 
 
@@ -155,13 +164,13 @@ def build_index(source_folder: Path, ocr_path: Path, output: Path) -> None:
     source_copy = output.parent.parent / "sources"
     source_copy.mkdir(parents=True, exist_ok=True)
     years = {}
-    for year_number in range(2007, 2022):
+    for year_number in range(2007, 2026):
         year = str(year_number)
         matches = list(source_folder.glob(f"{year}*.pdf"))
         if len(matches) != 1:
             raise ValueError(f"{year}: expected one PDF, found {len(matches)}")
         source = matches[0]
-        question_count = 22 if year_number == 2021 else 23
+        question_count = 22 if year_number >= 2021 else 23
         markers = select_sequence(candidates[year], expected_count=question_count)
         section_starts = {}
         heading_by_page: dict[int, list[float]] = defaultdict(list)
@@ -189,7 +198,8 @@ def build_index(source_folder: Path, ocr_path: Path, output: Path) -> None:
         if year == "2021":
             # The upper limit of the integral rises above the printed 11.
             starts[11] = 0.686
-        regions = build_regions(markers, page_count, heading_by_page, continuation_top=0.05 if year_number <= 2009 else 0.01, starts=starts)
+        question_page_count = 7 if year == "2025" else page_count
+        regions = build_regions(markers, question_page_count, heading_by_page, continuation_top=0.05 if year_number <= 2009 else 0.01, starts=starts)
         if year == "2015":
             # The right-hand figure for Q1 extends below the start of Q2.
             regions[1][0]["bottom"] = 0.308
@@ -197,9 +207,20 @@ def build_index(source_folder: Path, ocr_path: Path, output: Path) -> None:
             regions[2][0]["masks"] = [{"x0": 0.68, "y0": starts[2], "x1": 0.98, "y1": 0.308}]
         if year == "2021":
             regions[16][1]["top"] = 0.067
-        for false_continuation in {"2008": (11,), "2011": (10,), "2020": (12,), "2021": (6, 19)}.get(year, ()):
+        for false_continuation in {
+            "2008": (11,), "2011": (10,), "2020": (12,), "2021": (6, 19),
+            "2022": (16, 19), "2023": (7, 17), "2024": (10, 19), "2025": (14,),
+        }.get(year, ()):
             regions[false_continuation] = regions[false_continuation][:1]
-        target = source_copy / source.name
+        if year_number >= 2022:
+            # Printed source page numbers sit below the question area.
+            page_bottom = 0.925
+            for segments in regions.values():
+                for segment in segments:
+                    if segment["bottom"] == 0.96:
+                        segment["bottom"] = page_bottom
+        target_name = re.sub(r"(?:\.pdf)+$", ".pdf", source.name, flags=re.IGNORECASE)
+        target = source_copy / target_name
         if target != source:
             shutil.copy2(source, target)
         digest = hashlib.sha256(target.read_bytes()).hexdigest()
@@ -208,7 +229,7 @@ def build_index(source_folder: Path, ocr_path: Path, output: Path) -> None:
             kind = "choice" if number < section_starts["fill"] else "fill" if number < section_starts["solution"] else "solution"
             questions[str(number)] = {"type": kind, "segments": regions[number]}
         years[year] = {
-            "pdf": source.name,
+            "pdf": target_name,
             "sha256": digest,
             "page_count": page_count,
             "fill_start": section_starts["fill"],

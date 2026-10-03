@@ -252,8 +252,8 @@ def render_page(
           <form method="post" action="/preview">
             <div class="field-header"><label for="questions">年份与题号</label><small>每行一道题</small></div>
             <textarea id="questions" name="questions" aria-describedby="question-help"
-              placeholder="2009年数学一第9题&#10;2012-17&#10;2021-22">{html.escape(questions)}</textarea>
-            <p class="input-help" id="question-help">支持 <code>2021-22</code> 或“2021年数学一第22题”，重复的题目会自动去重。</p>
+              placeholder="2009年数学一第9题&#10;2022-17&#10;2025-22">{html.escape(questions)}</textarea>
+            <p class="input-help" id="question-help">支持 <code>2025-22</code> 或“2025年数学一第22题”，重复的题目会自动去重。</p>
             {error_html}
             <div class="form-bottom">
               <div class="select-block"><label for="space">解答题留白</label>

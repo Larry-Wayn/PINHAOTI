@@ -50,8 +50,6 @@ def export_pdf(root: Path, index: dict, selections: list, answer_space: str) -> 
     pdf.setFont(FONT_NAME, 10)
     pdf.drawCentredString(page_width / 2, y, summary)
     y -= 29
-    pdf.drawString(margin, y, "姓名：________________    日期：________________")
-    y -= 29
     pdf.setStrokeColorRGB(0.25, 0.25, 0.25)
     pdf.line(margin, y, page_width - margin, y)
     y -= 27
