@@ -73,6 +73,8 @@ class IndexTests(unittest.TestCase):
         self.assertLess(years["2007"]["questions"]["11"]["segments"][0]["top"], 0.30)
         self.assertLess(years["2012"]["questions"]["5"]["segments"][0]["top"], 0.60)
         self.assertLess(years["2020"]["questions"]["13"]["segments"][0]["top"], 0.08)
+        self.assertGreater(years["2020"]["questions"]["9"]["segments"][0]["top"], 0.700)
+        self.assertLess(years["2020"]["questions"]["9"]["segments"][0]["top"], 0.707)
         self.assertLess(years["2012"]["questions"]["6"]["segments"][0]["top"], 0.72)
         self.assertLess(years["2012"]["questions"]["10"]["segments"][0]["top"], 0.15)
         self.assertLessEqual(years["2012"]["questions"]["4"]["segments"][0]["bottom"], years["2012"]["questions"]["5"]["segments"][0]["top"])

@@ -195,6 +195,9 @@ def build_index(source_folder: Path, ocr_path: Path, output: Path) -> None:
         if year == "2015":
             starts[1] = 0.155
             starts[2] = 0.248
+        if year == "2020":
+            # Both numerators of Q9 rise above its printed question number.
+            starts[9] = 0.705
         if year == "2021":
             # The upper limit of the integral rises above the printed 11.
             starts[11] = 0.686
