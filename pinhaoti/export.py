@@ -59,9 +59,11 @@ def export_pdf(root: Path, index: dict, selections: list, answer_space: str) -> 
         if not group:
             continue
         first = group[0]
-        first_fragments = render_question(root, index, first.year, first.number, first.output_number)
+        first_fragments = render_question(
+            root, index, first.year, first.number, first.output_number, set_number=first.set_number,
+        )
         if not first_fragments:
-            raise ValueError(f"{first.year} 年第 {first.number} 题无法从源 PDF 取得题干")
+            raise ValueError(f"{first.origin}无法从源 PDF 取得题干")
         first_images_height = sum(image.height * content_width / image.width for image in first_fragments)
         first_blank_height = SPACE_HEIGHTS[answer_space] if kind == "solution" else 28 if kind == "fill" else 12
         first_required = first_images_height + 6 * len(first_fragments) + first_blank_height + 14
@@ -72,9 +74,11 @@ def export_pdf(root: Path, index: dict, selections: list, answer_space: str) -> 
         pdf.drawString(margin, y, section_title)
         y -= 26
         for item in group:
-            fragments = first_fragments if item is first else render_question(root, index, item.year, item.number, item.output_number)
+            fragments = first_fragments if item is first else render_question(
+                root, index, item.year, item.number, item.output_number, set_number=item.set_number,
+            )
             if not fragments:
-                raise ValueError(f"{item.year} 年第 {item.number} 题无法从源 PDF 取得题干")
+                raise ValueError(f"{item.origin}无法从源 PDF 取得题干")
             scaled_heights = [image.height * content_width / image.width for image in fragments]
             blank_height = SPACE_HEIGHTS[answer_space] if kind == "solution" else 28 if kind == "fill" else 12
             required = sum(scaled_heights) + 6 * len(fragments) + blank_height + 14
@@ -118,7 +122,7 @@ def export_pdf(root: Path, index: dict, selections: list, answer_space: str) -> 
         if y < bottom + 18:
             next_page()
         pdf.setFont(FONT_NAME, 10)
-        pdf.drawString(margin, y, f"第 {item.output_number} 题  ·  {item.year} 年数学一第 {item.number} 题  ·  {KIND_LABELS[item.kind]}")
+        pdf.drawString(margin, y, f"第 {item.output_number} 题  ·  {item.origin}  ·  {KIND_LABELS[item.kind]}")
         y -= 21
     pdf.save()
     return stream.getvalue()

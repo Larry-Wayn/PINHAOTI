@@ -51,6 +51,13 @@ class ExportTests(unittest.TestCase):
         self.assertNotIn("解答题", reader.pages[0].extract_text())
         self.assertIn("解答题", reader.pages[1].extract_text())
 
+    def test_zhangyu_paper_lists_set_origins(self):
+        selections = parse_selections("张宇八套卷第1套第9题\nZY8-17", self.index, source="zhangyu")
+        reader = PdfReader(BytesIO(export_pdf(ROOT, self.index, selections, "compact")))
+        text = "\n".join(page.extract_text() for page in reader.pages)
+        self.assertIn("张宇八套卷第 1 套第 9 题", text)
+        self.assertIn("张宇八套卷第 8 套第 17 题", text)
+
 
 if __name__ == "__main__":
     unittest.main()

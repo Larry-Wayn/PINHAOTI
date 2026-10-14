@@ -159,6 +159,13 @@ def read_ocr(path: Path) -> tuple[dict[str, list[Marker]], dict[str, dict[str, t
     return candidates, headings
 
 
+def compose_index(years: dict, previous: dict | None = None) -> dict:
+    result = {"version": 1, "years": years}
+    if previous and "collections" in previous:
+        result["collections"] = previous["collections"]
+    return result
+
+
 def build_index(source_folder: Path, ocr_path: Path, output: Path) -> None:
     candidates, headings = read_ocr(ocr_path)
     source_copy = output.parent.parent / "sources"
@@ -240,7 +247,8 @@ def build_index(source_folder: Path, ocr_path: Path, output: Path) -> None:
             "questions": questions,
         }
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps({"version": 1, "years": years}, ensure_ascii=False, indent=2) + "\n")
+    previous = json.loads(output.read_text()) if output.exists() else None
+    output.write_text(json.dumps(compose_index(years, previous), ensure_ascii=False, indent=2) + "\n")
 
 
 if __name__ == "__main__":

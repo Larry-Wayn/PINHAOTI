@@ -8,6 +8,9 @@ from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
+from pypdf import PdfReader
+from io import BytesIO
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
@@ -20,7 +23,7 @@ class WebTests(unittest.TestCase):
         cls.index = json.loads((ROOT / "data" / "index.json").read_text())
 
     def test_source_files_match_index(self):
-        self.assertEqual(verify_sources(ROOT, self.index), 19)
+        self.assertEqual(verify_sources(ROOT, self.index), 20)
 
     def test_preview_then_download_pdf(self):
         server = make_server(ROOT, self.index, port=0)
@@ -30,7 +33,9 @@ class WebTests(unittest.TestCase):
         try:
             base = f"http://127.0.0.1:{server.server_port}"
             with urlopen(base + "/") as response:
-                self.assertIn("年份", response.read().decode())
+                page = response.read().decode()
+                self.assertIn("2007—2025", page)
+                self.assertIn('name="source"', page)
             body = urlencode({"questions": "2009年数学一第9题", "space": "standard"}).encode()
             with urlopen(Request(base + "/preview", data=body)) as response:
                 page = response.read().decode()
@@ -38,6 +43,30 @@ class WebTests(unittest.TestCase):
             self.assertIsNotNone(match)
             with urlopen(base + match.group(1)) as response:
                 self.assertTrue(response.read().startswith(b"%PDF"))
+        finally:
+            server.shutdown()
+            server.server_close()
+
+    def test_zhangyu_mode_previews_only_zhangyu_questions(self):
+        server = make_server(ROOT, self.index, port=0)
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+        try:
+            base = f"http://127.0.0.1:{server.server_port}"
+            with urlopen(base + "/") as response:
+                self.assertIn('name="source"', response.read().decode())
+            body = urlencode({"source": "zhangyu", "questions": "ZY1-9\nZY8-17", "space": "compact"}).encode()
+            with urlopen(Request(base + "/preview", data=body)) as response:
+                page = response.read().decode()
+            match = re.search(r'src="(/pdf/[A-Za-z0-9_-]+)"', page)
+            self.assertIsNotNone(match)
+            with urlopen(base + match.group(1)) as response:
+                reader = PdfReader(BytesIO(response.read()))
+            self.assertIn("张宇八套卷第 1 套第 9 题", reader.pages[-1].extract_text())
+            wrong = urlencode({"source": "zhangyu", "questions": "2009-9", "space": "compact"}).encode()
+            with self.assertRaises(HTTPError) as error:
+                urlopen(Request(base + "/preview", data=wrong))
+            self.assertEqual(error.exception.code, 400)
         finally:
             server.shutdown()
             server.server_close()

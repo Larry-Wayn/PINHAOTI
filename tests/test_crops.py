@@ -77,6 +77,20 @@ class CropTests(unittest.TestCase):
         label = crop.crop((marker_x, 0, marker_x + round(width * 0.039), marker_y + 16))
         self.assertIsNone(ImageOps.invert(label.convert("L")).point(lambda p: 255 if p > 65 else 0).getbbox())
 
+    def test_zhangyu_question_uses_new_number_column_and_preserves_formula(self):
+        fragments = render_question(ROOT, self.index, None, 11, 1, set_number=1)
+        self.assertEqual(len(fragments), 1)
+        image = fragments[0]
+        number_column = image.crop((0, 0, round(image.width * .065), image.height))
+        body = image.crop((round(image.width * .065), 0, image.width, image.height))
+        self.assertIsNotNone(ImageOps.invert(number_column.convert("L")).getbbox())
+        self.assertIsNotNone(ImageOps.invert(body.convert("L")).getbbox())
+
+    def test_zhangyu_question_can_continue_on_a_second_source_page(self):
+        fragments = render_question(ROOT, self.index, None, 5, 1, set_number=1)
+        self.assertEqual(len(fragments), 2)
+        self.assertTrue(all(image.height > 20 for image in fragments))
+
     def number_crop(self, year, number):
         paper = self.index["years"][str(year)]
         segment = paper["questions"][str(number)]["segments"][0]

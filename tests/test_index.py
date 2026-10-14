@@ -6,10 +6,16 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from build_index import Marker, build_regions, choose_start, question_number, select_sequence
+from build_index import Marker, build_regions, choose_start, compose_index, question_number, select_sequence
 
 
 class IndexTests(unittest.TestCase):
+    def test_rebuilding_exam_index_preserves_other_question_banks(self):
+        previous = {"collections": {"zhangyu_27": {"sets": {"1": {}}}}}
+        rebuilt = compose_index({"2025": {"questions": {}}}, previous)
+        self.assertEqual(rebuilt["collections"], previous["collections"])
+        self.assertEqual(set(rebuilt["years"]), {"2025"})
+
     def test_question_number_accepts_fullwidth_and_ascii_parentheses(self):
         self.assertEqual(question_number("（9）设函数"), 9)
         self.assertEqual(question_number("(23) 求解"), 23)
@@ -90,6 +96,42 @@ class IndexTests(unittest.TestCase):
         self.assertLess(second["top"], 0.25)
         self.assertLessEqual(first["masks"][0]["y0"], second["top"])
         self.assertLessEqual(second["masks"][0]["x0"], 0.68)
+
+    def test_zhangyu_eight_sets_cover_176_questions_without_instruction_pages(self):
+        index = json.loads((Path(__file__).resolve().parents[1] / "data" / "index.json").read_text())
+        sets = index["collections"]["zhangyu_27"]["sets"]
+        self.assertEqual(set(sets), {str(i) for i in range(1, 9)})
+        for set_number, paper in sets.items():
+            with self.subTest(set_number=set_number):
+                self.assertEqual(set(paper["questions"]), {str(i) for i in range(1, 23)})
+                question_pages = {
+                    segment["page"] for question in paper["questions"].values()
+                    for segment in question["segments"]
+                }
+                first = 3 + (int(set_number) - 1) * 8
+                self.assertTrue(question_pages)
+                self.assertGreaterEqual(min(question_pages), first)
+                self.assertLessEqual(max(question_pages), first + 6)
+                self.assertEqual(paper["questions"]["10"]["type"], "choice")
+                self.assertEqual(paper["questions"]["11"]["type"], "fill")
+                self.assertEqual(paper["questions"]["17"]["type"], "solution")
+
+    def test_zhangyu_only_keeps_continuation_when_the_next_page_has_question_content(self):
+        sets = json.loads((Path(__file__).resolve().parents[1] / "data" / "index.json").read_text())["collections"]["zhangyu_27"]["sets"]
+        self.assertEqual(len(sets["1"]["questions"]["18"]["segments"]), 1)
+        self.assertEqual(len(sets["8"]["questions"]["14"]["segments"]), 2)
+
+    def test_zhangyu_question_starts_exclude_previous_options_and_section_headings(self):
+        sets = json.loads((Path(__file__).resolve().parents[1] / "data" / "index.json").read_text())["collections"]["zhangyu_27"]["sets"]
+        starts = {
+            (1, 10): .856, (2, 17): .474,
+            (4, 7): .392, (5, 10): .490, (6, 17): .554,
+            (7, 17): .682,
+        }
+        for (set_number, number), minimum in starts.items():
+            with self.subTest(set_number=set_number, number=number):
+                self.assertGreaterEqual(sets[str(set_number)]["questions"][str(number)]["segments"][0]["top"], minimum)
+        self.assertLessEqual(sets["3"]["questions"]["15"]["segments"][0]["top"], .255)
 
 
 if __name__ == "__main__":

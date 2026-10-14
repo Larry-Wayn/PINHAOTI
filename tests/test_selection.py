@@ -49,6 +49,27 @@ class SelectionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "第1项"):
             parse_selections("2009年数学二第9题", self.index)
 
+    def test_zhangyu_set_questions_can_be_selected_and_deduplicated(self):
+        selected = parse_selections(
+            "张宇八套卷第1套第9题\nZY1-9\n张宇八套卷第8套第17题", self.index,
+            source="zhangyu",
+        )
+        self.assertEqual(
+            [(item.year, item.set_number, item.number, item.kind, item.output_number) for item in selected],
+            [(None, 1, 9, "choice", 1), (None, 8, 17, "solution", 2)],
+        )
+
+    def test_zhangyu_invalid_set_and_question_report_input_position(self):
+        for entry in ("张宇八套卷第9套第1题", "ZY1-23"):
+            with self.subTest(entry=entry), self.assertRaisesRegex(ValueError, "第2项"):
+                parse_selections(f"ZY1-9\n{entry}", self.index, source="zhangyu")
+
+    def test_selected_question_bank_rejects_the_other_bank(self):
+        with self.assertRaisesRegex(ValueError, "第2项"):
+            parse_selections("ZY1-9\n2009-9", self.index, source="zhangyu")
+        with self.assertRaisesRegex(ValueError, "第2项"):
+            parse_selections("2009-9\nZY1-9", self.index)
+
 
 if __name__ == "__main__":
     unittest.main()

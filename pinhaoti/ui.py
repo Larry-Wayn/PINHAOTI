@@ -74,6 +74,8 @@ h1 span { color: var(--green); }
   margin: 30px 0 10px; }
 .field-header label, .select-block label { color: var(--ink); font-size: 13px; font-weight: 720; }
 .field-header small { color: #8b9690; font-size: 11px; white-space: nowrap; }
+.bank-select { margin-top: 27px; }
+.bank-select select { max-width: 100%; }
 textarea { display: block; width: 100%; min-height: 266px; padding: 16px 17px;
   resize: vertical; border: 1px solid #cfdad2; border-radius: 12px; outline: none;
   background: #fbfcfa; color: var(--ink); font-size: 14px; line-height: 1.8;
@@ -176,6 +178,7 @@ iframe { display: block; width: 100%; height: min(76vh, 830px); min-height: 510p
 def render_page(
     *, questions: str, space: str, error: str, preview: tuple[str, int] | None,
     quit_token: str, first_year: int, last_year: int, paper_count: int,
+    source: str = "exam", mock_count: int = 8,
 ) -> str:
     options = "".join(
         f'<option value="{value}" {"selected" if value == space else ""}>{label}</option>'
@@ -213,13 +216,23 @@ def render_page(
             '<span aria-hidden="true">↗</span></a>'
         )
     year_span = f"{first_year}—{last_year}"
+    exam_selected = "selected" if source != "zhangyu" else ""
+    mock_selected = "selected" if source == "zhangyu" else ""
+    placeholder = (
+        "张宇八套卷第1套第9题&#10;ZY3-11&#10;ZY8-17"
+        if source == "zhangyu" else "2009年数学一第9题&#10;2022-17&#10;2025-22"
+    )
+    help_text = (
+        "支持 ZY1-9 或“张宇八套卷第1套第9题”；每套 22 题，重复题目自动去重。"
+        if source == "zhangyu" else "支持 2025-22 或“2025年数学一第22题”；重复题目自动去重。"
+    )
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f7f4">
-  <title>拼好题 · 数学一真题组卷</title>
+  <title>拼好题 · 数学一组卷</title>
   <style>{CSS}</style>
 </head>
 <body>
@@ -229,7 +242,7 @@ def render_page(
       <a class="brand" href="/" aria-label="拼好题首页">
         <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
         <span class="brand-name">拼好题</span><span class="brand-divider"></span>
-        <span class="brand-sub">真题研习</span>
+        <span class="brand-sub">数学一研习</span>
       </a>
       <div class="header-meta"><span>考研数学一</span><span class="status">本地运行</span></div>
     </header>
@@ -238,10 +251,10 @@ def render_page(
         <div class="hero-copy">
           <div class="eyebrow">YOUR PRACTICE, YOUR PAPER</div>
           <h1 id="page-title">把值得重做的题，<br><span>拼成你的下一套练习。</span></h1>
-          <p>从 {year_span} 年考研数学一真题中选题。写下年份和题号，几步就能得到一份适合打印、留有演算空间的复习卷。</p>
+          <p>从 {year_span} 年考研数学一真题或张宇八套卷中选题。选择题库，再写下题号，就能得到适合打印、留有演算空间的复习卷。</p>
         </div>
-        <div class="hero-stat" aria-label="题库包含 {paper_count} 份原卷">
-          <strong>{paper_count:02d}</strong><small>份真题原卷 · {year_span}</small>
+        <div class="hero-stat" aria-label="题库包含 {paper_count} 份真题和 {mock_count} 套张宇卷">
+          <strong>{paper_count:02d} + {mock_count}</strong><small>份历年真题 + 张宇八套卷</small>
         </div>
       </section>
       <section class="workspace" id="workspace" aria-label="组卷工作台">
@@ -250,10 +263,15 @@ def render_page(
           <h2 class="panel-title">你的题目清单</h2>
           <p class="panel-intro">按记忆或错题本填写，题目会自动整理进新卷。</p>
           <form method="post" action="/preview">
-            <div class="field-header"><label for="questions">年份与题号</label><small>每行一道题</small></div>
+            <div class="select-block bank-select"><label for="source">选择题库</label>
+              <select id="source" name="source">
+                <option value="exam" {exam_selected}>历年真题（{year_span}）</option>
+                <option value="zhangyu" {mock_selected}>张宇八套卷（数学一）</option>
+              </select></div>
+            <div class="field-header"><label for="questions">题目清单</label><small>每行一道题</small></div>
             <textarea id="questions" name="questions" aria-describedby="question-help"
-              placeholder="2009年数学一第9题&#10;2022-17&#10;2025-22">{html.escape(questions)}</textarea>
-            <p class="input-help" id="question-help">支持 <code>2025-22</code> 或“2025年数学一第22题”，重复的题目会自动去重。</p>
+              placeholder="{placeholder}">{html.escape(questions)}</textarea>
+            <p class="input-help" id="question-help">{help_text}</p>
             {error_html}
             <div class="form-bottom">
               <div class="select-block"><label for="space">解答题留白</label>
@@ -275,12 +293,26 @@ def render_page(
       </section>
     </main>
     <footer class="site-footer">
-      <small>拼好题 · {year_span} 年考研数学一真题</small>
+      <small>拼好题 · 数学一真题与张宇八套卷</small>
       <form class="quit" method="post" action="/quit">
         <input type="hidden" name="quit_token" value="{html.escape(quit_token, quote=True)}">
         <button type="submit">结束程序</button>
       </form>
     </footer>
   </div>
+  <script>
+    const bank = document.getElementById('source');
+    const questionBox = document.getElementById('questions');
+    const questionHelp = document.getElementById('question-help');
+    bank.addEventListener('change', () => {{
+      if (bank.value === 'zhangyu') {{
+        questionBox.placeholder = '张宇八套卷第1套第9题\\nZY3-11\\nZY8-17';
+        questionHelp.textContent = '支持 ZY1-9 或“张宇八套卷第1套第9题”；每套 22 题，重复题目自动去重。';
+      }} else {{
+        questionBox.placeholder = '2009年数学一第9题\\n2022-17\\n2025-22';
+        questionHelp.textContent = '支持 2025-22 或“2025年数学一第22题”；重复题目自动去重。';
+      }}
+    }});
+  </script>
 </body>
 </html>"""

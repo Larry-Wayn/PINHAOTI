@@ -148,11 +148,22 @@ def trim_ink(image: Image.Image) -> Image.Image | None:
     return image.crop((0, 0, width, min(height, significant[-1] + 12)))
 
 
-def render_question(root: Path, index: dict, year: int, number: int, display_number: int) -> list[Image.Image]:
-    paper = index["years"][str(year)]
-    source = root / "sources" / paper["pdf"]
+def render_question(
+    root: Path, index: dict, year: int | None, number: int, display_number: int,
+    set_number: int | None = None,
+) -> list[Image.Image]:
+    if set_number is None:
+        paper = index["years"][str(year)]
+        source_name = paper["pdf"]
+        source_label = f"{year} 年真题"
+    else:
+        collection = index["collections"]["zhangyu_27"]
+        paper = collection["sets"][str(set_number)]
+        source_name = collection["pdf"]
+        source_label = f"张宇八套卷第 {set_number} 套"
+    source = root / "sources" / source_name
     if not source.is_file():
-        raise FileNotFoundError(f"找不到 {year} 年真题 PDF：{source}")
+        raise FileNotFoundError(f"找不到 {source_label} PDF：{source}")
     question = paper["questions"][str(number)]
     document = pdfium.PdfDocument(str(source))
     fragments = []
@@ -160,7 +171,10 @@ def render_question(root: Path, index: dict, year: int, number: int, display_num
     for segment in question["segments"]:
         page_image = document[segment["page"]].render(scale=2.2).to_pil().convert("RGB")
         page_width, page_height = page_image.size
-        x0, x1 = int(page_width * 0.02), int(page_width * 0.98)
+        # Zhang Yu's scanned pages have a dark binding edge outside the
+        # question column. Excluding it keeps the aligned text full size.
+        x0 = int(page_width * (0.07 if set_number is not None else 0.02))
+        x1 = int(page_width * 0.98)
         y0, y1 = int(page_height * segment["top"]), int(page_height * segment["bottom"])
         if y1 <= y0:
             continue
@@ -174,7 +188,16 @@ def render_question(root: Path, index: dict, year: int, number: int, display_num
                     int(page_width * mask["x1"]) - x0,
                     int(page_height * mask["y1"]) - y0,
                 ), fill="white")
-        if segment["left"] is not None:
+        if "label_box" in segment:
+            left, top, right, bottom = segment["label_box"]
+            label_y = page_height * (top + bottom) / 2 - y0
+            ImageDraw.Draw(crop).rectangle((
+                max(0, round(page_width * left) - x0 - 2),
+                max(0, round(page_height * top) - y0 - 3),
+                min(crop.width - 1, round(page_width * right) - x0 + 3),
+                min(crop.height - 1, round(page_height * bottom) - y0 + 3),
+            ), fill="white")
+        elif segment["left"] is not None:
             marker_x = int(page_width * segment["left"]) - x0
             marker_y = int(page_height * segment.get("marker_y", segment["top"] + 0.01)) - y0
             if year == 2021 and number >= 10:

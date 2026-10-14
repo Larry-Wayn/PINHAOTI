@@ -17,12 +17,17 @@ from .ui import render_page
 
 def verify_sources(root: Path, index: dict) -> int:
     count = 0
-    for year, paper in index["years"].items():
+    sources = [(f"{year} 年", paper) for year, paper in index["years"].items()]
+    sources.extend(
+        (collection.get("title", key), collection)
+        for key, collection in index.get("collections", {}).items()
+    )
+    for label, paper in sources:
         source = root / "sources" / paper["pdf"]
         if not source.is_file():
-            raise FileNotFoundError(f"找不到 {year} 年试卷：{source}")
+            raise FileNotFoundError(f"找不到 {label}试卷：{source}")
         if hashlib.sha256(source.read_bytes()).hexdigest() != paper["sha256"]:
-            raise ValueError(f"{year} 年试卷与题目索引不匹配：{source}")
+            raise ValueError(f"{label}试卷与题目索引不匹配：{source}")
         count += 1
     return count
 
@@ -54,11 +59,14 @@ def make_server(root: Path, index: dict, port: int = 8787) -> ThreadingHTTPServe
             self.end_headers()
             self.wfile.write(pdf)
 
-        def page(self, questions: str = "", space: str = "standard", error: str = "", preview: tuple[str, int] | None = None) -> str:
+        def page(
+            self, questions: str = "", space: str = "standard", error: str = "",
+            preview: tuple[str, int] | None = None, source: str = "exam",
+        ) -> str:
             return render_page(
                 questions=questions, space=space, error=error, preview=preview,
                 quit_token=quit_token, first_year=years[0], last_year=years[-1],
-                paper_count=len(years),
+                paper_count=len(years), source=source,
             )
 
         def do_GET(self):
@@ -97,17 +105,18 @@ def make_server(root: Path, index: dict, port: int = 8787) -> ThreadingHTTPServe
             fields = parse_qs(self.rfile.read(length).decode("utf-8"), keep_blank_values=True)
             questions = fields.get("questions", [""])[0]
             space = fields.get("space", ["standard"])[0]
+            source = fields.get("source", ["exam"])[0]
             try:
-                selected = parse_selections(questions, index)
+                selected = parse_selections(questions, index, source=source)
                 document = export_pdf(root, index, selected, space)
             except (ValueError, FileNotFoundError) as exc:
-                self.send_html(self.page(questions, space, str(exc)), status=400)
+                self.send_html(self.page(questions, space, str(exc), source=source), status=400)
                 return
             token = secrets.token_urlsafe(12)
             previews[token] = document
             while len(previews) > 5:
                 previews.popitem(last=False)
-            self.send_html(self.page(questions, space, preview=(token, len(selected))))
+            self.send_html(self.page(questions, space, preview=(token, len(selected)), source=source))
 
     return ThreadingHTTPServer(("127.0.0.1", port), Handler)
 
@@ -118,7 +127,7 @@ def main():
     count = verify_sources(root, index)
     server = make_server(root, index, port=0)
     address = f"http://127.0.0.1:{server.server_port}/"
-    print(f"已核对 {count} 份真题。拼好题已启动：{address}", flush=True)
+    print(f"已核对 {count} 份源试卷。拼好题已启动：{address}", flush=True)
     if os.environ.get("PINHAOTI_NO_BROWSER") != "1":
         threading.Timer(0.5, lambda: webbrowser.open(address)).start()
     try:
